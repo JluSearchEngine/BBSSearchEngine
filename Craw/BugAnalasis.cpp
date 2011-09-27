@@ -16,7 +16,7 @@ bool CBugAnalasis::AnalasisURL(CString strURL,vector<CString>&vStrURL)
     bool bSuccessful = false ;
 	CString strPageData = "" ;
 
-	getHTMLFileContent(strURL,strPageData) ;
+	bSuccessful = getHTMLFileContent(strURL,strPageData) ;
  
 
 	if(bSuccessful)
